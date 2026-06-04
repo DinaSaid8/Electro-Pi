@@ -2,6 +2,9 @@
 
 A responsive React storefront built against the [DummyJSON](https://dummyjson.com) API: JWT auth, product grid with search/filter/sort, saved items, shareable URLs, and paginated loading.
 
+## Live Demo
+[https://electropi.netlify.app/](https://electropi.netlify.app/)
+
 ## Quick start
 
 ```bash
@@ -35,12 +38,6 @@ Open **http://localhost:5173**
 | `npm run test` | Unit tests |
 | `npm run lint` | ESLint |
 
-## Submission checklist
-
-- [ ] Repo or zip with source  
-- [ ] This README + `DECISIONS.md`  
-- [ ] Screenshots: mobile + desktop (list, detail, saved)  
-- [ ] Optional: short screen recording of login → filter → detail  
 
 ## Stack
 
