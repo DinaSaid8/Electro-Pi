@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --color-surface: #12121a;
+  --color-surface-raised: #1a1a26;
+  --color-accent: #f59e0b;
+  --color-accent-muted: #f59e0b33;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-dvh font-sans text-slate-100 antialiased;
+    background-color: #0a0a0f;
+  }
+
+  #root {
+    @apply min-h-dvh;
+  }
+
+  ::selection {
+    @apply bg-amber-500/30 text-white;
+  }
+
+  input::placeholder {
+    @apply text-slate-500;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply rounded-2xl border border-white/[0.06] bg-slate-900/60 shadow-xl shadow-black/20 backdrop-blur-xl;
+  }
+
+  .shimmer {
+    @apply relative overflow-hidden;
+  }
+
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.05),
+      transparent
+    );
+    animation: shimmer 1.8s ease-in-out infinite;
+  }
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shimmer::after {
+    animation: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
