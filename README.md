@@ -1,9 +1,9 @@
-# Electro Pi — Product Catalog
+# Prodexa Store — Product Catalog
 
 A responsive React storefront built against the [DummyJSON](https://dummyjson.com) API: JWT auth, product grid with search/filter/sort, saved items, shareable URLs, and paginated loading.
 
 ## Live Demo
-[https://electropi.netlify.app/](https://electropi.netlify.app/)
+[https://prodexastore.netlify.app/](https://prodexastore.netlify.app/)
 
 ## Quick start
 

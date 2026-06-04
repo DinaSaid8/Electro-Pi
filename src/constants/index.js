@@ -16,7 +16,7 @@ export const SORT_OPTIONS = {
   PRICE_DESC: 'price-desc',
 };
 
-export const FAVORITES_STORAGE_KEY = 'electro_pi_favorites';
+export const FAVORITES_STORAGE_KEY = 'prodexa_store_favorites';
 
 export const CACHE_KEYS = {
   PRODUCTS: 'products_list',

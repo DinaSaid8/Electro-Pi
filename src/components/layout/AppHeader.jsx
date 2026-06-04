@@ -28,9 +28,9 @@ export default function AppHeader() {
           className="mr-auto flex items-center gap-2.5 font-bold text-white no-underline transition-opacity hover:opacity-90"
         >
           <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-amber-400 to-orange-600 text-sm font-extrabold text-slate-950 shadow-lg shadow-amber-500/20">
-            EP
+            PS
           </span>
-          <span className="hidden text-lg sm:inline">Electro Pi</span>
+          <span className="hidden text-lg sm:inline">Prodexa Store</span>
         </Link>
 
         <nav className="flex items-center gap-1 text-sm">

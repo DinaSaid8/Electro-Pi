@@ -2,7 +2,7 @@ export default function AppFooter() {
   return (
     <footer className="mt-auto border-t border-white/[0.06] py-6 text-center">
       <p className="text-xs text-slate-600">
-        Electro Pi · Demo storefront · Data from{' '}
+      Prodexa Store · Demo storefront · Data from{' '}
         <a
           href="https://dummyjson.com"
           target="_blank"
